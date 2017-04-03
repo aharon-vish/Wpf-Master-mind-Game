@@ -1,0 +1,21 @@
+﻿<Window x:Class="MastermindGameAharonVishinsky.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" KeyUp="Window_KeyUp">
+    <Canvas Name="canvas" >
+        <!--<Grid Height="319" Width="517">-->
+        <Label Content="" x:Name="one" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="150" Canvas.Top="126"/>
+        <Label Content="" x:Name="two" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="220" Canvas.Top="126"/>
+        <Label Content="" x:Name="three" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="290" Canvas.Top="126"/>
+        <Label Content="" x:Name="four" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="360" Canvas.Top="126" />
+        <Label  Name="five" Content="" Canvas.Left="150" Canvas.Top="228" Background="#FFB9A5A5" FontSize="22" FontWeight="Bold"/>
+        <Label Name="six" Content="" Canvas.Left="220" Canvas.Top="228"  Background="#FFB9A5A5" FontSize="22" FontWeight="Bold"/>
+        <Label Name="seven" Content="" Canvas.Left="290" Canvas.Top="228"  Background="#FFB9A5A5" FontSize="22" FontWeight="Bold"/>
+        <Label Name="nine" Content="" Canvas.Left="360" Canvas.Top="228"  Background="#FFB9A5A5" FontSize="22" FontWeight="Bold"/>
+        <Button Content="Start" x:Name="start" HorizontalAlignment="Left" Margin="222,62,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.055,0.564" Click="start_Click"/>
+
+        <Label Name="m" Content="Guess a 4-digit number and press enter" Canvas.Top="162" Width="517" Background="#FFD1B0B0" Height="61" FontSize="20" FontStyle="Italic" FontWeight="Black" RenderTransformOrigin="0.5,0.5"   Visibility ="Hidden" HorizontalContentAlignment="Center"/>
+        <Label Name="Guess" Canvas.Left="200" Canvas.Top="0" Content="" Height="28"  Width="111" VerticalContentAlignment="Center" VerticalAlignment="Center" UseLayoutRounding="False" FontStyle="Italic" FontWeight="ExtraBlack" HorizontalContentAlignment="Center" />
+        <!--</Grid>-->
+    </Canvas>
+</Window>
